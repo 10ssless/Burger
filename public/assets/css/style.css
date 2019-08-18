@@ -6,11 +6,22 @@ body {
   background-size: cover;
   background-position: 200px -60px;
   height: 100%;
-
 }
+
+
 
 h1 {
   text-align: center;
+  color: yellow;
+}
+
+#logo {
+  position:fixed;
+  top: 3.4%;
+  left: 38.2%;
+  filter: invert(1);
+  width: 32px;
+  height: 32px;
 }
 
 h2 {
@@ -32,6 +43,7 @@ li {
 
 .label {
   font-weight: bold;
+  
 }
 
 .create-update-form {
@@ -42,6 +54,7 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  color: yellow;
 }
 
 .section {
@@ -85,7 +98,8 @@ input:focus {
 }
 
 button:hover{
-  color:white;
+  /* color:white; */
+  color: yellow;
 }
 
 button {
