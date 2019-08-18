@@ -1,0 +1,44 @@
+<h1>JUST BURGERS</h1>
+
+<div class="top-content">
+  <div class="section menu">
+    <h2>WHATS ON THE MENU</h2>
+    <ul>
+      {{#each burgers}}
+        {{#unless devoured}}
+          {{> burgers/burger-block devoured=true}}
+        {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="section gone">
+    <h2>GONE FOREVER</h2>
+    <ul>
+      {{#each burgers}}
+        {{#if devoured}}
+          {{> burgers/burger-block devoured=false}}
+        {{/if}}
+      {{/each}}
+      </ul>
+    </div>
+</div>
+<div class="btm-content">
+  <div class="section new">
+    <h2>YOU GOT A NEW FLAVOR??</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="bur">BURGER NAME:</label>
+        <input type="text" id="burger" name="burger_name">
+      </div>
+      <div class="form-group status">
+        <label for="dev" id="status-label">STATUS:</label>
+        <input type="radio" name="devoured" value="0" checked> IN SUPPLY
+        <input type="radio" name="devoured" value="1" id="status-dev"> OUT OF STOCK<br>
+      </div>
+
+      <button type="submit" id="add-that">ADD THAT</button>
+    </form>
+  </div>
+</div>

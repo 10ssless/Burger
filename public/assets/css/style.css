@@ -1,0 +1,116 @@
+body {
+  background:black;
+  color:white;
+  font-size: 20px;
+  background-image: url("https://img4.goodfon.com/wallpaper/nbig/9/88/mendez-cakson-burger-3d-art-eda-burger-minimalizm.jpg");
+  background-size: cover;
+  background-position: 200px -60px;
+  height: 100%;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(46,215,123);
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  color:red;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.section {
+  margin-top: 30px;
+  float:left;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* background: rgb(0,0,0,0.7); */
+  padding: 10px;
+}
+
+.new {
+  margin-top: 100px;
+  /* clear:both; */
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+}
+
+.btm-content {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 22%; */
+  margin-right: 20%;
+}
+
+
+
+
+button,input {
+  border:none;
+  background: none;
+  color:lightgray;
+  font-size:16px;
+}
+
+input:focus {
+  outline:none; 
+}
+
+button:hover{
+  color:white;
+}
+
+button {
+  color:gray;
+}
+
+#add-that {
+  float:right;
+}
+
+input {
+  border-bottom: lightgray 1px solid;
+}
+
+#burger {
+  width: 300px;
+}
+
+#status-dev {
+  margin-left: 20px;
+}
+
+#status-label {
+  margin-right: 70px;
+}
+
+
+
